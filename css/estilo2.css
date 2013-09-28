@@ -1,0 +1,40 @@
+body { margin : 0; 
+       font-family : Arial, Helvetica, sans-serif;
+	   line-height : 17px; 
+	   background:#000000;} 
+   
+#contenedor{ margin : 0 auto; 
+             width:900px; 
+			 background:#009900; border-left: #FCCF67 2px solid; border-right:#FCCF67 2px solid;}
+		 
+#header{  height:200px;
+          background: #000000 }
+		  
+#contenido{ width:900px;
+          background-image:url(../imagenes/fondo.jpg)}
+		  
+#footer{  height:50px; background-image:url(../imagenes/footer.jpg); padding:10px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #FFFFFF; border-top:#FFFFFF 2px solid; text-align:center; line-height:13px;}
+		  
+.float_izq{ float:left;}			 
+.texto { margin:0px 10px 0px 10px; padding:10px;}
+
+#blanco { background-color:#FFFFFF; width:590px;}
+
+#columna1{ width:135px; background:url(../imagenes/lateral.jpg); height:820px;}
+#columna2{ width:135px; background:url(../imagenes/lateral.jpg); height:1330px;}
+#columna3{ width:135px; background:url(../imagenes/lateral.jpg); height:557px;}
+#columna4{ width:135px; background:url(../imagenes/lateral.jpg); height:547px;}
+
+#columna_cent{ width:630px; background-color:#F6B863;}
+
+#img_home { width:180px; height:451px; margin-top:8px;}
+#tit_home2 { width:390px; padding:8px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#EC701F; font-weight:bold }
+#tit_home3 { width:390px; padding:2px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:16px; color: #FFCC33; font-weight:bold }
+#tit_home2 a {color: #FF6600; }
+#tit_home2 a:hover {color: #FFCC33; }
+#tit_home4 { width:190px; padding:10px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #000000; font-weight:bold }
+#tit_home5 { width:500px; padding:5px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #000000; font-weight:bold }
+#fotos{ width:590px; background-color:#000000;}
+#nota {width:580px; height:60px; background-color:#FF9900; color:#FFFFFF; text-align:center; font-size:16px; font-weight:bold; padding-top:10px;}
+
+#clear {clear: both}
