@@ -11,9 +11,16 @@ body { margin : 0;
           background: #000000 }
 		  
 #contenido{ width:900px;
-          background-image:url(../imagenes/fondo.jpg)}
+          background-image:url(../imagenes/fondo.jpg); overflow: hidden; }
 		  
-#footer{  height:50px; background-image:url(../imagenes/footer.jpg); padding:10px 8px 2px 8px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #FFFFFF; border-top:#FFFFFF 2px solid; text-align:center; line-height:13px;}
+#footer{ 
+  height:47px; 
+  background-image:url(../imagenes/footer.jpg); 
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:12px; color: #FFFFFF; border-top:#FFFFFF 2px solid; text-align:center; 
+  line-height:15px;
+  padding-top: 5px;
+}
 		  
 .float_izq{ float:left;}			 
 .texto { margin:0px 10px 0px 10px; padding:10px;}
