@@ -21,6 +21,16 @@ body { margin : 0;
   line-height:15px;
   padding-top: 5px;
 }
+
+#footer p { margin: 0; padding: 0; }
+#footer a { text-decoration: none; font-weight: bold; color: white; }
+
+#footer .face { 
+  float: left;
+  position: relative;
+  top: -19px;
+  left: 295px;
+}
 		  
 .float_izq{ float:left;}			 
 .texto { margin:0px 10px 0px 10px; padding:10px;}
